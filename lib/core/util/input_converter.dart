@@ -15,3 +15,5 @@ class InputConverter {
 }
 
 class InvalidInputFailure extends Failure {}
+
+//
