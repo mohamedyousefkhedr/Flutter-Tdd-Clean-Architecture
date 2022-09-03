@@ -1,12 +1,13 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:clean_architecture_tdd_course/core/error/failures.dart';
-import 'package:clean_architecture_tdd_course/core/usecases/usecase.dart';
-import 'package:clean_architecture_tdd_course/features/number_trivia/domain/entities/number_trivia.dart';
+
 import 'package:dartz/dartz.dart';
 import 'package:meta/meta.dart';
 
+import '../../../../core/error/failures.dart';
+import '../../../../core/usecases/usecase.dart';
+import '../../domain/entities/number_trivia.dart';
 import './bloc.dart';
 import '../../../../core/util/input_converter.dart';
 import '../../domain/usecases/get_concrete_number_trivia.dart';

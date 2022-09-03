@@ -1,4 +1,4 @@
-name: clean_architecture_tdd_course
+name: clean_architecture_tdd_
 description: TDD Clean Architecture for Flutter
 
 version: 1.0.0+1
@@ -26,7 +26,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: ^4.1.1
+  mockito:
 
 flutter:
   uses-material-design: true
